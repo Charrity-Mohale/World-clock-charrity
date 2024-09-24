@@ -34,7 +34,8 @@ function updateCity(event) {
     )}</small></div>
 </div>
  </div>
-    </div>`;
+    </div>
+    <a href="index.html">All cities</a>`;
 }
 let citiesSelect = document.querySelector("#city");
 citiesSelect.addEventListener("change", updateCity);
